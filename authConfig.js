@@ -1,8 +1,8 @@
 const msalConfig = {
     auth: {
-      clientId: "44dff28f-da6f-4754-bdd2-1453b36da44f",
+      clientId: "bca1efa4-b74d-4138-860e-e2b30c472b54",
       authority: "https://login.microsoftonline.com/common",
-      redirectUri: "https://capstone-is-test-site.azurewebsites.net/",
+      redirectUri: "https://testforuss.azurewebsites.net",
     },
     cache: {
       cacheLocation: "sessionStorage", // This configures where your cache will be stored
