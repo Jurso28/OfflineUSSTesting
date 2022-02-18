@@ -4,7 +4,7 @@
   "description": "package.json for new azure account",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "mocha",
     "start": "node server.js"
   },
   "author": "",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Jurso28/OfflineUSSTesting/issues"
   },
-  "homepage": "https://github.com/Jurso28/OfflineUSSTesting#readme"
+  "homepage": "https://github.com/Jurso28/OfflineUSSTesting#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
