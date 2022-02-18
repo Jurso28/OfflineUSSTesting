@@ -1,15 +1,24 @@
 {
-  "name": "new-azure-account",
+  "name": "test",
   "version": "1.0.0",
   "description": "package.json for new azure account",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "morgan": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jurso28/OfflineUSSTesting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jurso28/OfflineUSSTesting/issues"
+  },
+  "homepage": "https://github.com/Jurso28/OfflineUSSTesting#readme"
 }
